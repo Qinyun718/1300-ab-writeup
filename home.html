@@ -2,13 +2,179 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Redesign - Website</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
     <!-- TODO: put your HTML code here! -->
+    <!-- Back to top button -->
+
+    <div class="container-fluid">
+        <div class="tm-site-header tm-mb-1">
+            <div class="tm-site-name-container tm-bg-color-1">
+                <h1 class="tm-text-white">AB-Testing</h1>
+            </div>
+        </div>
+
+
+        <div class="tm-nav-container tm-bg-color-8">
+            <ul>
+                <li class="tm-nav-item current">
+                    <a href="#about" class="tm-nav-link">
+                        <span class="tm-mb-1">.01</span>
+                        <span>Hypothesis</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#services" class="tm-nav-link">
+                        <span class="tm-mb-1">.02</span>
+                        <span>Data Collection</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#gallery" class="tm-nav-link">
+                        <span class="tm-mb-1">.03</span>
+                        <span>Results</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <section class="tm-mb-1" id="about">
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-r tm-bg-color-8">
+                    <h2 class="tm-mb-2 tm-text-purple">.01 Hypothesis Tests</h2>
+                    <p class = "tm-text-normal"><a href="https://floating-gorge-92770.herokuapp.com">Click Here! (Link to both versions) </a></p>
+                    <p class = "tm-text-normal"><b>Time to Completion:  </b></p>
+                    <p class = "tm-text-normal">
+                        Null Hypothesis: the time it takes to complete the desired task on version A is equal to that of version B</p>
+                    <p class = "tm-text-normal">
+                        Alternative Hypothesis: the time it takes to complete the desired task on version A is less than that of version B
+
+                    </p>
+                    <p class = "tm-text-normal"><b>Return Rate: </b></p>
+                    <p class = "tm-text-normal">
+                        Null Hypothesis: the number of times a user returned to the page on version A is equal to that of version B </p>
+                    <p class = "tm-text-normal">
+                        Alternative Hypothesis: the number of times a user returned to the page on version A is less than that of version B
+
+
+                    </p>
+                    <p class = "tm-text-normal"><b>Reasoning behind alternative hypothesis: </b></p>
+                    <p class = "tm-text-normal">Since I changed the layout from the vertical view to the horizontal view, it would provide more convenience for audience to add items and view the prices. Thus, both of the time to completion and return rate should be smaller than the original version.  </p>
+
+
+                </div>
+            </div>
+        </section>
+
+        
+        <div class="tm-nav-container tm-bg-color-8">
+            <ul>
+                <li class="tm-nav-item">
+                    <a href="#about" class="tm-nav-link">
+                        <span class="tm-mb-1">.01</span>
+                        <span>Hypothesis</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item current">
+                    <a href="#services" class="tm-nav-link">
+                        <span class="tm-mb-1">.02</span>
+                        <span>Data Collection</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#gallery" class="tm-nav-link">
+                        <span class="tm-mb-1">.03</span>
+                        <span>Results</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <section class="tm-mb-1" id="services">
+        	<div class="tm-site-name-container tm-bg-color-1">
+        		<p class="tm-text-white text-center">Data Collection Process</p>
+        		
+        	</div>
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-r tm-bg-color-8">
+                    <p class = "tm-text-normal">
+                    The data collection process was completed during the studio time. With the deployed Heroku link, participants tested on either version A or version B with the purpose of filling $150 shopping cart. Their records would be used to calculate different metrics for the AB testing process. 
+                    </p>
+                </div>
+
+            </div>
+            
+        </section>
+
+        
+
+        <div class="tm-nav-container tm-bg-color-8">
+            <ul>
+                <li class="tm-nav-item">
+                    <a href="#about" class="tm-nav-link">
+                        <span class="tm-mb-1">.01</span>
+                        <span>Hypothesis</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#services" class="tm-nav-link">
+                        <span class="tm-mb-1">.02</span>
+                        <span>Data Collection</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item current">
+                    <a href="#gallery" class="tm-nav-link">
+                        <span class="tm-mb-1">.03</span>
+                        <span>Results</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+        <section class="tm-mb-1" id="gallery">
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-l">
+                    <img src="AB_Testing.jpg" alt="Description" class="tm-img-responsive">
+                </div>
+                <div class="tm-section-1-r tm-bg-color-8">
+                    <h2 class="tm-mb-2 tm-text-purple">.03 Results </h2>
+                    <p class = "tm-text-normal"><b> Broad Takeaways</b> 
+                        <ul class = "tm-text-normal">
+                            <li>
+                                The sample size is too small to obtain significant results. 
+                            </li>
+                            <li>
+                                The p-value for the t-test is approaching to the significance level, indicating that the horizontal layout might decrease the time to completion. 
+                            </li>
+                            <li>
+                               Since the data collection part was not done with natural completion, the results might include some bias. 
+                            </li>
+                            
+                        
+                        </ul>
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
+        
   </body>
 </html>
